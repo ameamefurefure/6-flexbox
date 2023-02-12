@@ -1,0 +1,36 @@
+header{
+  background-color: pink;
+  height: 150px;
+}
+
+main{
+  /*background-color: black;*/
+  height: 600px;
+  display: flex;
+}
+
+.main-left{
+  background-color: lime;
+  height: 600px;
+  width: 300px;
+}
+
+.main-right{
+  background-color: green;
+  height: 600px;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.main-right >div{
+  background-color: yellow;
+  height: 130px;
+  width: 200px;
+}
+
+footer{
+  background-color: blue;
+  height: 150px;
+}
